@@ -54,11 +54,11 @@ ESP32C3 개발 보드
 SPI PSRAM 칩 핀이 MCU 보드와 제대로 연결되었는지 확인합니다. 예를 들어, PSRAM이 ESP32C3의 아래 GPIO와 
 연결되어야 하며, VCC와 GND 핀도 잊지 말고 연결해야 합니다:
 
-MOSI: GPIO6
-MISO: GPIO5
-SCLK: GPIO4
-CS1: GPIO9  // PSRAM64H (8MB)
-CS2: GPIO10 // W25Q128 (16MB) 
+##MOSI: GPIO6
+##MISO: GPIO5
+##SCLK: GPIO4
+##CS1: GPIO9  // PSRAM64H (8MB)
+##CS2: GPIO10 // W25Q128 (16MB) 
 
 ## esp-idf 환경에서 uc-rv32ima를 빌드
 
