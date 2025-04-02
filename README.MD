@@ -64,7 +64,7 @@ CS1: GPIO9  // PSRAM64H (8MB) <--- LINUX TEST OK ,SPEED 40MHZ TEST OK
 
 CS2: GPIO10 // W25Q128 (16MB) <--- LINUX TEST OK ,SPEED 40MHZ TEST OK
 
-## esp-idf 환경에서 uc-rv32ima를 빌드
+## esp-idf 환경에서 rv32ima 이미지
 
 esptool을 사용하여 보드의 플래시에 이미지를 작성한 후 보드를 리셋합니다:
 
