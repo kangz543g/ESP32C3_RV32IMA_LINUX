@@ -73,4 +73,4 @@ esptool.py --chip esp32c3 --port /dev/ttyAMC0 write_flash 0x200000 Image
 1초 이내에 USB CDC 콘솔에 리눅스 커널 메시지가 출력되기 시작합니다. 리셋 버튼을 누른 후 리눅스 셸이
  실행되는 데 약 1분 20초가 걸립니다.
 
-https://github.com/kangz543g/ESP32C3_RV32IMA_LINUX/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-04-02%2016-26-31.png
+
