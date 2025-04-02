@@ -68,7 +68,7 @@ CS2: GPIO10 // W25Q128 (16MB) <--- LINUX TEST OK ,SPEED 40MHZ TEST OK
 
 esptool을 사용하여 보드의 플래시에 이미지를 작성한 후 보드를 리셋합니다:
 
-esptool.py --chip esp32c3 --port /dev/ttyAMC0 write_flash 0x200000 Image 
+esptool.py --chip esp32c3 --port /dev/ttyACM0 write_flash 0x200000 Image 
 
 1초 이내에 USB CDC 콘솔에 리눅스 커널 메시지가 출력되기 시작합니다. 리셋 버튼을 누른 후 리눅스 셸이
  실행되는 데 약 1분 20초가 걸립니다.
